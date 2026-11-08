@@ -16,11 +16,16 @@ L’intégration officielle Home Assistant (`wirelesstag`) reste limitée au YAM
 
 ## Installation (HACS)
 
+> Version actuelle : **[v1.0.0](https://github.com/nicdive/HA-wirelesstags/releases/tag/v1.0.0)**
+
 1. HACS → **⋮** → *Custom repositories*
-2. URL : `https://github.com/nicdive/HA-wirelesstags`
+2. Repository : `nicdive/HA-wirelesstags` (ou `https://github.com/nicdive/HA-wirelesstags`)
 3. Catégorie : **Integration**
-4. Installer **Wireless Tags**, puis redémarrer Home Assistant
-5. *Paramètres → Appareils et services → Ajouter une intégration → Wireless Tags*
+4. Chercher **Wireless Tags** → **Download** / Installer
+5. Redémarrer Home Assistant
+6. *Paramètres → Appareils et services → Ajouter une intégration → Wireless Tags*
+
+HACS propose les versions publiées sur [Releases](https://github.com/nicdive/HA-wirelesstags/releases).
 6. Saisir vos identifiants wirelesstag.net
 
 ## Installation manuelle
