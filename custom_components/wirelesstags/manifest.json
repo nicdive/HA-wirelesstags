@@ -1,0 +1,12 @@
+{
+  "domain": "wirelesstags",
+  "name": "Wireless Tags",
+  "codeowners": ["@nicdive"],
+  "config_flow": true,
+  "documentation": "https://github.com/nicdive/HA-wirelesstags",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/nicdive/HA-wirelesstags/issues",
+  "loggers": ["wirelesstagpy"],
+  "requirements": ["wirelesstagpy==0.8.1"],
+  "version": "1.0.0"
+}

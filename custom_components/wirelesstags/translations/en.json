@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wireless Tags",
+        "description": "Connect with your wirelesstag.net / mytaglist.com account. All tags linked to that account will be discovered automatically.",
+        "data": {
+          "username": "Email / username",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate Wireless Tags",
+        "description": "Password for {username} is no longer valid. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password",
+      "cannot_connect": "Unable to connect to Wireless Tags",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This Wireless Tags account is already configured",
+      "reauth_successful": "Reauthentication successful"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Wireless Tags options",
+        "description": "Cloud push updates tags immediately. Polling is a fallback refresh interval.",
+        "data": {
+          "scan_interval": "Polling interval"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": { "name": "Temperature" },
+      "ambient_temperature": { "name": "Ambient temperature" },
+      "humidity": { "name": "Humidity" },
+      "moisture": { "name": "Moisture" },
+      "light": { "name": "Light" }
+    },
+    "binary_sensor": {
+      "presence": { "name": "Presence" },
+      "motion": { "name": "Motion" },
+      "door": { "name": "Door" },
+      "cold": { "name": "Cold" },
+      "heat": { "name": "Heat" },
+      "dry": { "name": "Too dry" },
+      "wet": { "name": "Too wet" },
+      "light_detected": { "name": "Light detected" },
+      "leak": { "name": "Leak" },
+      "battery": { "name": "Battery" }
+    },
+    "switch": {
+      "arm_temperature": { "name": "Arm temperature" },
+      "arm_humidity": { "name": "Arm humidity" },
+      "arm_motion": { "name": "Arm motion" },
+      "arm_light": { "name": "Arm light" },
+      "arm_moisture": { "name": "Arm moisture" }
+    }
+  }
+}

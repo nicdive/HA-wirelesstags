@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wireless Tags",
+        "description": "Connectez-vous avec votre compte wirelesstag.net / mytaglist.com. Tous les tags liés à ce compte seront découverts automatiquement.",
+        "data": {
+          "username": "E-mail / identifiant",
+          "password": "Mot de passe"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Réauthentifier Wireless Tags",
+        "description": "Le mot de passe de {username} n'est plus valide. Saisissez le mot de passe actuel.",
+        "data": {
+          "password": "Mot de passe"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Identifiant ou mot de passe invalide",
+      "cannot_connect": "Impossible de se connecter à Wireless Tags",
+      "unknown": "Erreur inattendue"
+    },
+    "abort": {
+      "already_configured": "Ce compte Wireless Tags est déjà configuré",
+      "reauth_successful": "Réauthentification réussie"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options Wireless Tags",
+        "description": "Le push cloud met à jour les tags immédiatement. Le polling sert de rafraîchissement de secours.",
+        "data": {
+          "scan_interval": "Intervalle de polling"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": { "name": "Température" },
+      "ambient_temperature": { "name": "Température ambiante" },
+      "humidity": { "name": "Humidité" },
+      "moisture": { "name": "Humidité du sol" },
+      "light": { "name": "Luminosité" }
+    },
+    "binary_sensor": {
+      "presence": { "name": "Présence" },
+      "motion": { "name": "Mouvement" },
+      "door": { "name": "Porte" },
+      "cold": { "name": "Froid" },
+      "heat": { "name": "Chaleur" },
+      "dry": { "name": "Trop sec" },
+      "wet": { "name": "Trop humide" },
+      "light_detected": { "name": "Lumière détectée" },
+      "leak": { "name": "Fuite" },
+      "battery": { "name": "Batterie" }
+    },
+    "switch": {
+      "arm_temperature": { "name": "Armer température" },
+      "arm_humidity": { "name": "Armer humidité" },
+      "arm_motion": { "name": "Armer mouvement" },
+      "arm_light": { "name": "Armer luminosité" },
+      "arm_moisture": { "name": "Armer humidité du sol" }
+    }
+  }
+}
